@@ -1,0 +1,67 @@
+.buttonSize {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0;
+    border: 1px solid $second-color;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+}
+
+.buttonSize:disabled {
+    border-color: $disabled-color;
+    color: $disabled-color;
+    cursor: auto
+}
+
+.buttonSize:hover {}
+
+.buttonSize_size_small {
+    width: 24px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.buttonSize_size_medium {
+    width: 45px;
+    height: 45px;
+}
+
+.buttonSize_size_big {
+    width: 63px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.buttonSize_type_plus {
+    background: linear-gradient($second-color, $second-color), linear-gradient($second-color, $second-color), white;
+    background-position: center;
+    background-size: 30% 1px, 1px 30%;
+    background-repeat: no-repeat;
+}
+
+.buttonSize_type_plus:disabled {
+    background: linear-gradient($disabled-color, $disabled-color), linear-gradient($disabled-color, $disabled-color), white;
+    background-size: 30% 1px, 1px 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.buttonSize_type_minus {
+    background: linear-gradient($second-color, $second-color), white;
+    background-position: center;
+    background-size: 30% 1px, 1px 30%;
+    background-repeat: no-repeat;
+}
+
+.buttonSize_type_minus:disabled {
+    background: linear-gradient($disabled-color, $disabled-color), white;
+    background-size: 30% 1px, 1px 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

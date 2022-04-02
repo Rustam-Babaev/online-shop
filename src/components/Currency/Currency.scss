@@ -1,0 +1,42 @@
+.currency {
+    position: relative;
+}
+
+.currency__button {
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.currency__popover {
+    position: absolute;
+    bottom: -215px;
+    right: -52px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, all 0.2s linear;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+}
+
+.currency__popover_open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.currency__popover-button {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    &:nth-last-child(n+2) {
+        margin-bottom: 21px
+    }
+}

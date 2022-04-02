@@ -1,0 +1,19 @@
+.cartOverlay {
+    width: 325px;
+    padding: 8px 16px;
+    background-color: antiquewhite;
+}
+
+.cartOverlay__title {
+    margin: 0 0 24px 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.cartOverlay__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 41px;
+}

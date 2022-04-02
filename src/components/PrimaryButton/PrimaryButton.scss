@@ -1,0 +1,31 @@
+.primaryButton {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0;
+}
+
+.primaryButton:hover {
+    background-color: $active-color;
+}
+
+.primaryButton_size_small {
+    padding: 13px 0;
+    width: 140px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.primaryButton_size_big {
+    padding: 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.primaryButton_color_primary {
+    background-color: $primary-color;
+    color: white
+}
